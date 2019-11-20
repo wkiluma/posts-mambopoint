@@ -1,0 +1,453 @@
+<div class="row">
+    
+
+    <div class="col-md-9">
+
+        <!--Projects section v.2-->
+        <section class="section text-center pb-3">
+
+            <!--Section heading-->
+            <!-- <h2 class="section-heading h1 pt-4"><strong>Latest projects:</strong></h2> -->
+            <!--Section description-->
+
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+
+                <!--Grid column-->
+                
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-xl-12 mb-4">
+
+                    <!--Card-->
+                    <mdb-card cascade="true" narrower="false" class="d-flex mb-5">
+
+                        <!--Card image-->
+                        
+                        <div class="view overlay hm-white-slight">
+                            <div class="row">
+                             <div class="col-lg-6 col-xl-11 mb-4">
+
+                            </div>
+                            <div margin class="col-lg-6 col-xl-1 mb-4">
+                                 <mdb-icon  size="2x" fas icon="caret-left"></mdb-icon>
+                                  <div class="col-md-3">
+                            <div class="text-center">
+
+                                <button type="button" mdbBtn color="primary" class="waves-light" data-toggle="modal"
+                                        data-target="#basicExample" (click)="fluidRight.show()"
+                                        mdbWavesEffect>
+                                    Right
+                                </button>
+                                <br>
+
+
+                                <div mdbModal #centralSuccess="mdb-modal" class="modal fade" id="centralModalSuccess"
+                                     tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog modal-notify modal-success" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <p class="heading lead">Modal Success</p>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close" (click)="centralSuccess.hide()">
+                                                    <span aria-hidden="true" class="white-text">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center">
+                                                    <mdb-icon fas icon="check" size="4x"
+                                                              class="mb-3 animated rotateIn"></mdb-icon>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+                                                        iusto nulla aperiam blanditiis
+                                                        ad consequatur in dolores culpa, dignissimos, eius non possimus
+                                                        fugiat. Esse ratione fuga, enim,
+                                                        ab officiis totam.</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer justify-content-center">
+                                                <a type="button" mdbBtn color="primary" class="waves-light"
+                                                   mdbWavesEffect>Get it now
+                                                    <mdb-icon far icon="gem" class=" ml-1"></mdb-icon>
+                                                </a>
+                                                <a type="button" mdbBtn color="secondary" outline="true"
+                                                   data-dismiss="modal" (click)="centralSuccess.hide()" mdbWavesEffect>No,
+                                                    thanks</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div mdbModal #fluidBottom="mdb-modal" class="modal fade bottom"
+                                     id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog modal-notify modal-success" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <p class="heading lead">Modal Success</p>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close" (click)="centralSuccess.hide()">
+                                                    <span aria-hidden="true" class="white-text">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center">
+                                                    <mdb-icon fas icon="check" size="4x"
+                                                              class="mb-3 animated rotateIn"></mdb-icon>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+                                                        iusto nulla aperiam blanditiis
+                                                        ad consequatur in dolores culpa, dignissimos, eius non possimus
+                                                        fugiat. Esse ratione fuga, enim,
+                                                        ab officiis totam.</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer justify-content-center">
+                                                <a type="button" mdbBtn color="primary" class="waves-light"
+                                                   mdbWavesEffect>Get it now
+                                                    <mdb-icon far icon="gem" class=" ml-1"></mdb-icon>
+                                                </a>
+                                                <a type="button" mdbBtn color="secondary" outline="true"
+                                                   data-dismiss="modal" (click)="fluidBottom.hide()" mdbWavesEffect>No,
+                                                    thanks</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div mdbModal #fluidRight="mdb-modal" class="modal fade right" id="fullHeightModalRight"
+                                     tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog modal-full-height modal-right" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close" (click)="fluidRight.hide()">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                                                    magnam, sunt, ea dolore eum quod.
+                                                    Minima fugiat enim aut soluta est reprehenderit reiciendis quos,
+                                                    qui, amet possimus laborum assumenda
+                                                    voluptate.
+                                                </p>
+
+                                                <ul class="list-group z-depth-0">
+                                                    <li class="list-group-item justify-content-between">
+                                                        Cras justo odio
+                                                        <mdb-badge primary="true" pill="true">14</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Dapibus ac facilisis in
+                                                        <mdb-badge primary="true" pill="true">2</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Morbi leo risus
+                                                        <mdb-badge primary="true" pill="true">1</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Cras justo odio
+                                                        <mdb-badge primary="true" pill="true">14</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Dapibus ac facilisis in
+                                                        <mdb-badge primary="true" pill="true">2</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Morbi leo risus
+                                                        <mdb-badge primary="true" pill="true">1</mdb-badge>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" mdbBtn color="secondary" class="waves-light"
+                                                        data-dismiss="modal" (click)="fluidRight.hide()" mdbWavesEffect>
+                                                    Close
+                                                </button>
+                                                <button type="button" mdbBtn color="primary" class="waves-light"
+                                                        mdbWavesEffect>Save changes
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div mdbModal #fluidLeft="mdb-modal" class="modal fade left" id="fullHeightModalRight"
+                                     tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                     aria-hidden="true">
+                                    <div class="modal-dialog modal-full-height modal-left" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close" (click)="fluidLeft.hide()">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
+                                                    magnam, sunt, ea dolore eum quod.
+                                                    Minima fugiat enim aut soluta est reprehenderit reiciendis quos,
+                                                    qui, amet possimus laborum assumenda
+                                                    voluptate.
+                                                </p>
+
+                                                <ul class="list-group z-depth-0">
+                                                    <li class="list-group-item justify-content-between">
+                                                        Cras justo odio
+                                                        <mdb-badge primary="true" pill="true">14</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Dapibus ac facilisis in
+                                                        <mdb-badge primary="true" pill="true">2</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Morbi leo risus
+                                                        <mdb-badge primary="true" pill="true">1</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Cras justo odio
+                                                        <mdb-badge primary="true" pill="true">14</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Dapibus ac facilisis in
+                                                        <mdb-badge primary="true" pill="true">2</mdb-badge>
+                                                    </li>
+                                                    <li class="list-group-item justify-content-between">
+                                                        Morbi leo risus
+                                                        <mdb-badge primary="true" pill="true">1</mdb-badge>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" mdbBtn color="secondary" class="waves-light"
+                                                        data-dismiss="modal" (click)="fluidLeft.hide()" mdbWavesEffect>
+                                                    Close
+                                                </button>
+                                                <button type="button" mdbBtn color="primary" class="waves-light"
+                                                        mdbWavesEffect>Save changes
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                            </div>
+                           
+                           
+                            <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-signup.jpg"
+                                 class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <mdb-card-body>
+                            <!--Title-->
+                            <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </p>
+                        </mdb-card-body>
+
+                        <!--Card footer-->
+                        <div class="card-footer links-light">
+                            <span class="right"> 
+                                <a href="" class="waves-effect p-2">Live Preview
+                                    <mdb-icon fas icon="camera" class="ml-1"></mdb-icon></a>
+                            </span>
+                        </div>
+
+                    </mdb-card>
+                    <!--/.Card-->
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-xl-6 mb-3">
+
+                    <!--Card-->
+                    <mdb-card cascade="true" narrower="true" class="d-flex mb-5">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-pricing.jpg"
+                                 class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <mdb-card-body>
+                            <!--Title-->
+                            <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </p>
+                        </mdb-card-body>
+
+                        <!--Card footer-->
+                        <div class="card-footer links-light">
+                            <span class="right"> 
+                                <a href="" class="waves-effect p-2">Live Preview
+                                    <mdb-icon fas icon="camera" class="ml-1"></mdb-icon></a>
+                            </span>
+                        </div>
+
+                    </mdb-card>
+                    <!--/.Card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-xl-6 mb-3">
+
+                    <!--Card-->
+                    <mdb-card cascade="true" narrower="true" class="d-flex mb-5">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-landing.jpg"
+                                 class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <mdb-card-body>
+                            <!--Title-->
+                            <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </p>
+
+                        </mdb-card-body>
+
+                        <!--Card footer-->
+                        <div class="card-footer links-light">
+                            <span class="right"> 
+                                <a href="" class="waves-effect p-2">Live Preview
+                                    <mdb-icon fas icon="camera" class="ml-1"></mdb-icon></a>
+                            </span>
+                        </div>
+
+                    </mdb-card>
+                    <!--/.Card-->
+
+                </div>
+                <!--Grid column-->
+               
+            </div>
+            <!--Grid row-->
+             <div class="row d-flex justify-content-center">
+
+                <!--Grid column-->
+                
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-6 col-xl-12 mb-4">
+
+                    <!--Card-->
+                    <mdb-card cascade="true" narrower="false" class="d-flex mb-5">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-signup.jpg"
+                                 class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!--Card content-->
+                        <mdb-card-body>
+                            <!--Title-->
+                            <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.
+                            </p>
+                        </mdb-card-body>
+
+                        <!--Card footer-->
+                        <div class="card-footer links-light">
+                            <span class="right"> 
+                                <a href="" class="waves-effect p-2">Live Preview
+                                    <mdb-icon fas icon="camera" class="ml-1"></mdb-icon></a>
+                            </span>
+                        </div>
+
+                    </mdb-card>
+                    <!--/.Card-->
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--/Projects section v.2-->
+    </div>
+        <div class="col-md-3">
+
+
+        <!--Card-->
+        <mdb-card cascade="true" narrower="true">
+
+            <!--Card image-->
+            <div class="view overlay hm-white-slight waves-light" mdbWavesEffect>
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20%283%29.jpg"
+                     class="img-fluid">
+                <a>
+                    <div class="mask"></div>
+                </a>
+            </div>
+            <!--/Card image-->
+
+            <!--Card content-->
+            <mdb-card-body class="text-center">
+                <!--Title-->
+                <h4 class="card-title font-bold mb-2"><strong>Alice Mayer</strong></h4>
+                <h5 class="indigo-text"><strong>Photographer</strong></h5>
+
+                <h6 class='text-justify'><strong>About:</strong></h6>
+                <p class='text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione perferendis
+                    quod animi dignissimos consectetur
+                    quibusdam numquam laboriosam, minus, provident...</p>
+
+                <div class="text-right">
+                    <button type="button" mdbBtn outline="true" color="primary" rounded="true" size="sm" mdbWavesEffect>
+                        More...
+                    </button>
+                </div>
+
+            </mdb-card-body>
+            <!--/.Card content-->
+
+        </mdb-card>
+        <!--/.Card-->
+
+    </div>
+
+
+</div>
