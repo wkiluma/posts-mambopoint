@@ -7,15 +7,17 @@ import { RouterModule, Route } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 import { NotFoundComponent } from './views/errors/not-found/not-found.component';
 import { Dashboard1Component } from './views/dashboards/dashboard1/dashboard1.component';
+import { CreatePostComponent } from './views/create-post/create-post.component';
 
 
 const routes: Route[] = [
-  { path: '', pathMatch: 'full', redirectTo: 'dashboards/v1' },
+  { path: '', pathMatch: 'full', redirectTo: 'profiles/profile1' },
   { path: 'dashboards', children:
     [
       { path: 'v1', component: Dashboard1Component },
     ]
   },
+  {path: 'create-post', component: CreatePostComponent },
   { path: 'profiles', children:
     [
       { path: 'profile1', component: Profile1Component },
